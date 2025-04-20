@@ -6,7 +6,7 @@ const poseImage = document.getElementById('poseImage');
 
 let detector, rafId;
 let currentPoseIndex = 0;
-const totalPoses = 8;
+const totalPoses = 7;
 const similarityThreshold = 0.85;
 let standardKeypointsList = [];
 let poseOrder = [];
